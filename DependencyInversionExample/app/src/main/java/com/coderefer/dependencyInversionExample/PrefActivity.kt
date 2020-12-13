@@ -10,7 +10,6 @@ class PrefActivity : AppCompatActivity() {
     private val btnDarkMode: Button = Button(this)
     private lateinit var viewmodel: PrefViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
-        inject()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pref)
         viewModelFactory = PrefViewModelFactory((application as DIExampleApp).repository)
@@ -19,8 +18,4 @@ class PrefActivity : AppCompatActivity() {
             viewmodel.updateDarkMode(true)
         }
     }
-}
-
-private fun inject() {
-//        TODO: to inject di
 }
