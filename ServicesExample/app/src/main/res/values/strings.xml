@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ServicesExample</string>
+    <string name="notification_title">Hello! Title from Coderefer App</string>
+    <string name="notification_message">Hey World! Message from Coderefer Notification</string>
+    <string name="ticker_text">I am a ticker</string>
+    <string name="title_activity_second">SecondActivity</string>
+</resources>
