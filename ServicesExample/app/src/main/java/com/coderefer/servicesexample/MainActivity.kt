@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
             MyName()
 
         }
-        startService(Intent(this, MyService::class.java))
+        startForegroundService(Intent(this, MyService::class.java))
     }
 
 
